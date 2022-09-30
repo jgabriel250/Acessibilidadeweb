@@ -1,0 +1,36 @@
+body{
+    text-align: justify;
+   padding: 50px;
+}
+.img1{
+    width: 350px;
+    height: 250px;
+}
+.enfat{
+    color: blue;
+}
+a:link {
+    color:#ff0000;
+    text-decoration:none;
+  }
+  a:visited {
+    color:#33ff00;
+    text-decoration:none;
+  }
+  a:hover {
+    color:#000000;
+    text-decoration:underline;
+  }
+  a:active {
+    color:#00ff00;
+    text-decoration:underline;
+    background-color:#000000;
+  }
+  .sec{
+    border: 1px outset rgba(236, 226, 226, 0.788);
+  }
+   
+  .img{
+    border: 2px outset black;
+    border-radius: 10px;
+  }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+    <style>
+        body{
+    text-align: justify;
+   padding: 50px;
+}
+.img1{
+    width: 350px;
+    height: 250px;
+}
+.enfat{
+    color: blue;
+}
+a:link {
+    color:#ff0000;
+    text-decoration:none;
+  }
+  a:visited {
+    color:#33ff00;
+    text-decoration:none;
+  }
+  a:hover {
+    color:#000000;
+    text-decoration:underline;
+  }
+  a:active {
+    color:#00ff00;
+    text-decoration:underline;
+    background-color:#000000;
+  }
+  .sec{
+    border: 1px outset rgba(236, 226, 226, 0.788);
+  }
+   
+  .img{
+    border: 2px outset black;
+    border-radius: 10px;
+  }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 id="tp1">Acessibilidade WEB</h1>
+    </header>
+
+    <main>
+    <section class="sec">
+        <h2 class="subt">O que é acessibilidade web?</h2>
+        <article>
+        <p1>O termo <a href="https://www.ufc.br/acessibilidade/conceito-de-acessibilidade" alt="Acessibilidade" target="_blank"> Acessibilidade</a> web refere-se a pratica de inclusão ao fazer websites que possam alcançar todas as pessoas
+        que tenham deficiência ou não.Quando os sites são desenvolvidos de maneira correta todas as pessoas conseguem ter
+        acesso de maneira igual sem demais limmitações.
+        Atualmente as barreiras não existem somente da forma física,mas virtualmente.
+        E buscando promover o alcance e acesso á todo o publico,quem desenvolve as paginas na web deve se preocupar
+        com os seguintes requisitos:</p1>
+    <br>
+    <nav><ul>
+        <li>O conteúdo de páginas Web devem conter informação naturais (texto, imagens e som)</li>
+        <li>Navegadores da Web e tocadores de mídia</li>
+        <li>Software de tecnologia de assistência</li>
+        <li>Usuários com conhecimento e experiência em utilizar a Web</li>
+        <li>Os desenvolvedores</li>
+        <li>Ferramentas de desenvolvimento</li>
+        <li>Ferramentas de Avaliação</li>
+    </ul></nav>
+    <figure>
+        <img src="img/deficiencias.png" class="img img1" alt="Deficiencia Visual,Auditiva,Mental,Locomotora;Acessibilidade na web">
+    </figure>
+    <br>
+    <p>Muitas pessoas com incapacidades necessitam da acessibilidade na Web para realizar suas atividades.
+        Para que essas pessoas usufruam e contribuam para a Web de uma forma eficaz, 
+        é necessário que surjam, cada vez mais, softwares mais acessíveis.</p>
+    </article>
+    </section>
+<br>
+        <section class="sec">
+            <h2 class="subt">W3C</h2>
+                 <h3>Quem é,o que faz a W3C?</h3>
+                 <article>
+                    <p>A W3C (World Wide Web Consortium) é uma organização mundial que desenvolve especificações técnicas e orientações para web. 
+                    Ou seja, ela quem cria e mantém os padrões para os sites na internet, incluindo os de acessibilidade. 
+                    O WCAG (Web Content Accessibility Guidelines) é o seu documento que traz as diretrizes de acessibilidade para a web, explicando como tornar o conteúdo acessível para pessoas com deficiências. 
+                    A  WAI <em class="enfat">(Web Accessibility Initiative )</em> desde 1999 diretrizes padronizadas e reconhecidas a nível internacional para criar conteúdos e páginas mais acessíveis.
+                    Estas recomendações técnicas, especialmente pensadas para webmasters, webdesigners e desenvolvedores.</p>
+                    </article>
+                    <figure>
+                    <img class="img" src="img/wcag.png" alt="WCAG">
+                    </figure>
+        </section>
+<br>
+        <section class="sec">
+                <h3>W3C no Brasil</h3>
+                <article>
+        <p>O W3C Brasil iniciou suas atividades em 2008 por iniciativa do Comitê Gestor da Internet no Brasil (CGI.br) e do núcleo de Informação e Coordenação do Ponto BR (NIC.br). 
+            Hospedar um escritório do W3C é estratégico para que a comunidade brasileira não apenas adote padrões web, mas também contribua com inovação e desenvolvimento, por meio, principalmente, de fóruns de discussões do W3C. 
+            o W3C Brasil acompanha as discussões de alcance mundial sobre o desenvolvimento dos padrões, com uma atenção especial a temas como: Open Web Platform, dados abertos e acessibilidade na web. Este último está na agenda principal do W3C Brasil desde sua inauguração.
+           </p>
+        </article>
+        </section>
+        <br>
+        <section class="sec">
+            <article>
+            <h3 class="subt">W3C E OS NÍVEIS DE ACESSIBILIDADE WEB</h3>
+        <p>A WAI classifica também as páginas web conforme a acessibilidade dos conteúdos, estabelecendo os seguintes níveis:</p>
+        <nav>
+            <ul>
+                <li><span class="spn">Nivel A:</span>é o menos exigente e inclui as páginas que cumprem certos critérios 
+                    em conformidade com a WCAG como, por exemplo, a disponibilidade de <em class="enfat">legendas para áudios gravados</em> ou 
+                    as alternativas de texto para conteúdos audiovisuais, etc.</li>
+                <li><span class="spn">Nivel AA:</span>é o intermediário e <em class="enfat">o mais requerido pelas entidades que expedem certificados de 
+                    acessibilidade web.</em> Reúne os websites que respeitam critérios mais avançados, 
+                    como a disponibilidade de legendas para áudios ao vivo, audiodescrição, tamanho de texto aumentável, etc</li>
+            </ul>
+        </nav>
+    </article>
+        </section>
+        <br>
+        <section class="sec">
+            <article>
+                <h2>Como tornar sua pagina acessível.</h2>
+                <nav>
+                    <ol>
+                        <li>Incluir texto alternativo. Use texto alternativo para imagens, logotipos, desenhos e outros itens</li>
+                        <li>Verificar alto contraste de cor.</li>
+                        <li>Usar texto de link informativo</li>
+                        <li>Verificar o tamanho e o alinhamento do texto.</li>
+                        <li>Usar texto além da formatação.</li>
+                        <li>Usar listas numeradas e com marcadores.</li>
+                    </ol>
+                </nav>
+            </article>
+        </section>
+        <br>
+        <section class="sec">
+            <article>
+                <h2>HTML Semântico</h2>
+                <p>Quando você usa HTML semântico, o navegador interpreta as tags da forma como deve ser, pois cada uma tem um significado. 
+                    Isso ajuda ferramentas como leitores de tela e recursos de acessibilidade para pessoas com necessidades especiais.</p>
+
+                    <p> Já para a classificação das páginas no Google e outros buscadores, o HTML semântico ajuda os robôs de rastreamento a 
+                    extrair o conteúdo e fazer a associação correta com os tipos de elementos.</p>
+                    
+                    <p>Ainda falando dos robôs, eles gostam de "entender" o conteúdo da página e extrair o conteúdo rapidamente, por isso um
+                     DOM pequeno também é muito importante. Se tiver um DOM grande, o robô pode não extrair todo o conteúdo, prejudicando 
+                     o SEO do site e pontuação no Google PageSpeed.</p>
+                    
+                   <p> Um DOM grande também aumenta o uso da memória e gera cálculos de estilos mais longos, deixando o carregamento mais lento. 
+                    Sites lentos perdem pontos no Google e outros buscadores.</p>
+                    <nav>
+                        <h4>Tags semanticas</h4>
+                        <ul>
+                            <li>&lt;header&gt;</li>
+                            <p></p>
+                            <li>&lt;section&gt;</li>
+                            <li>&lt;article&gt;</li>
+                            <li>&lt;nav&gt;</li>
+                            <li>&lt;aside&gt;</li>
+                            <li>&lt;main&gt;</li>
+                            <li>&lt;figure&gt;</li>
+                            <li>&lt;footer&gt;</li>
+                            <li>&lt;a&gt;</li>
+                            <li>&lt;em&gt;</li>
+                            <li>&lt;strong&gt;</li>
+                            <li>&lt;cite&gt;</li>
+                            <li>&lt;q&gt;</li>
+                            <li>&lt;time&gt;</li>
+                        </ul>
+                    </nav>
+                    <p>Lembre-se que quando escrevemos uma página web estamos preparando um conteúdo que será consumido 
+                        por diferentes “clientes”, como outros desenvolvedores, browsers, algoritmos de indexação de sites de busca e, 
+                        até mesmo, ferramentas de mineração de texto, por exemplo. Portanto, ao escrever código HTML, 
+                        preocupe-se também com a semântica dos elementos nele presentes. O uso correto de elementos semânticos 
+                        é fundamental para a construção de páginas web modernas e mais fáceis de compreender e manter.</p>
+            </article>
+            <footer>
+                <p><a href="https://www.instagram.com/j.gabrielxt" target="_blank">João Gabriel</a> </p>
+            </footer>
+        </section>
+           
+        
+    </main>
+</body>
+</html>
